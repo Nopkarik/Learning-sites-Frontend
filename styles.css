@@ -22,7 +22,7 @@ body {
     display:flex;
     justify-content:center;
     margin: 0 0 5 0;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 4px 1px 5px black;
 }
 
 .Types {
