@@ -1,15 +1,19 @@
+
 body {
     background: #18191b;
-    color:#ffffff;
+    color:#F4F3F2;
+    margin: 0;
+    font-family: 'Fira Code', monospace, sans-serif;
      }
 
 .main{
 	display:flex;
-	font-size: 30px;
+	font-size: 20px;
     font-weight: bold;
 	margin: 0 auto;
 	justify-content:center;
     text-align: center;
+    border-bottom: 4px solid #F4F3F2;;
 	}
 
 .text{
@@ -18,6 +22,7 @@ body {
     display:flex;
     justify-content:center;
     margin: 0 0 5 0;
+    text-shadow: 1px 1px 5px black;
 }
 
 .Types {
@@ -26,4 +31,11 @@ body {
     font-weight: bold;
 	margin: 0 0 5 0 ;
 	justify-content:center;
+}
+#engi {
+    display:flex;
+    justify-content:center;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
 }
